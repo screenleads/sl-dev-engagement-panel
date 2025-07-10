@@ -1,0 +1,5 @@
+<div class="advice-container" *ngIf="advice">
+    <img [src]="advice.media?.url" alt="Imagen del anuncio" class="advice-image">
+    <h2>Condiciones legales</h2>
+    <p>{{ advice.description }}</p>
+</div>

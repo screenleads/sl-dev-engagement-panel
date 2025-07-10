@@ -1,0 +1,24 @@
+.advice-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    .advice-image {
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #333;
+    }
+}

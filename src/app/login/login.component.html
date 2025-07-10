@@ -1,0 +1,11 @@
+<div class="login-wrapper">
+    <h1>Iniciar sesión</h1>
+    <form (ngSubmit)="login()">
+        <input type="email" [(ngModel)]="email" name="email" placeholder="Correo" required>
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña" required>
+        <button type="submit">Entrar</button>
+    </form>
+    <button class="register-link" (click)="register()">Registrarse</button>
+    <hr>
+    <button class="google-login" (click)="loginWithGoogle()">Entrar con Google</button>
+</div>
